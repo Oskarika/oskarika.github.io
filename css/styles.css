@@ -74,6 +74,17 @@
   box-sizing: border-box;
 }
 
+.coolbutton{
+  background-color: #815e5b;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -243,7 +254,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #74a09d;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
