@@ -73,6 +73,22 @@
 *::after {
   box-sizing: border-box;
 }
+.skilss{
+  color: white;
+  margin: auto;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 0px 10px beige;
+  border-radius: 0;
+  margin-bottom: 2rem;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  padding-left: 60px;
+
+}
+
 
 .coolbutton{
   background-color: #815e5b;
