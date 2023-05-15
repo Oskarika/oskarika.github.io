@@ -146,7 +146,7 @@ tr:hover{
 
 
 .coolbutton{
-  background-color: #815e5b;
+  background-color: #64a19d;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -331,7 +331,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #74a09d;
+  color: #3f3f3f;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -7518,10 +7518,13 @@ textarea.form-control-lg {
   margin-right: 0.5rem !important;
   margin-left: 0.5rem !important;
   transition: 0.3s;
+  box-shadow: 0px 0px 10px wheat;
+
 }
 
 .mx-2:hover{
   transform: scale(1.1);
+  box-shadow: 0px 0px 20px wheat;
 }
 
 .mx-3 {
