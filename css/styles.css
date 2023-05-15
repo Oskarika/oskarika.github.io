@@ -130,7 +130,16 @@ tr{
 
 tr:hover{
   transform: scale(1.1);
+  
+}
 
+.projectheder{
+  margin: auto;
+  position: relative;
+  margin: auto;
+  width: 13%;
+  padding: 10px;
+  margin-bottom: 5rem;
 }
 
 
