@@ -140,6 +140,7 @@ tr:hover{
   width: 13%;
   padding: 10px;
   margin-bottom: 5rem;
+  text-shadow: 5px 5px 7px;
 }
 
 
@@ -4723,7 +4724,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: antiquewhite;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -8117,6 +8118,11 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.einiinvalko{
+  --bs-bg-opacity: 1;
+  background-color: antiquewhite;
 }
 
 .bg-dark {
@@ -11624,7 +11630,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #f9efe2;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
