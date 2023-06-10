@@ -4281,6 +4281,8 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  position: relative;
+  left: 5rem;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -4732,7 +4734,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: antiquewhite;
+  background-color: white;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -8161,8 +8163,7 @@ textarea.form-control-lg {
 
 .einiinvalko{
   --bs-bg-opacity: 1;
-  background: rgb(250,235,215);
-background: linear-gradient(0deg, rgba(250,235,215,1) 0%, rgba(250,235,215,1) 85%, rgba(50,50,50,1) 100%);
+background: linear-gradient(0deg, white 0%, white 85%, #e7e3d7  100%);
 }
 
 .bg-dark {
@@ -11620,8 +11621,8 @@ body {
 }
 
 #mainNav {
-  min-height: 3.5rem;
-  background-color: #fff;
+  min-height: 6rem;
+  background-color: #ededed;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11656,12 +11657,14 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
+    font-size: 2rem;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11670,7 +11673,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #f9efe2ba;
+    background-color:#ededed;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11702,6 +11705,55 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
+.masthead_Course {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #e7e3d7  100%), url(https://img.emg-services.net/educations/education1807189/ensiapukoulutukset-940x335-keuda-koulutukset-1-1-1-1-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead_Course h1, .masthead_Course .h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.masthead_Course h2, .masthead_Course .h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .masthead_Course h1, .masthead_Course .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .masthead_Course {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead_Course h1, .masthead_Course .h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead_Course h2, .masthead_Course .h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
 
 .masthead {
   position: relative;
@@ -11709,7 +11761,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/wallpaper.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://img.emg-services.net/educations/education1807189/ensiapukoulutukset-940x335-keuda-koulutukset-1-1-1-1-1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11751,6 +11803,158 @@ body {
   }
 }
 
+
+
+.Coursecard {
+  width: 30rem;
+  height: 20rem;
+  background: url("https://www.uskallaauttaa.fi/wp-content/uploads/2023/01/ensiapukoulutukset-uskalla-auttaa.ACMzY4eDI0Ng.jpg");
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+
+}
+
+.Coursecard:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+  background: url("https://www.uskallaauttaa.fi/wp-content/uploads/2023/01/ensiapukoulutukset-uskalla-auttaa.ACMzY4eDI0Ng.jpg");
+
+
+}
+
+.first-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.Coursecard:hover .first-content {
+  height: 0px;
+  opacity: 0;
+}
+
+.second-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+  
+}
+
+.Coursecard:hover .second-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
+
+.CoursecardInfo{
+  text-align: center;
+  position: relative;
+  bottom: 15rem;
+  width: 30rem;
+    left: 35rem;
+}
+
+
+.CoursecardR
+{
+  width: 30rem;
+  height: 20rem;
+  background: url("https://www.uskallaauttaa.fi/wp-content/uploads/2023/01/ensiapukoulutukset-uskalla-auttaa.ACMzY4eDI0Ng.jpg");
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+  left: 50%;
+  position: relative;
+}
+
+.CoursecardR:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+}
+
+.first-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.CoursecardR:hover .first-content {
+  height: 0px;
+  opacity: 0;
+}
+
+.second-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.CoursecardR:hover .second-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
+
+.CoursecardInfoR{
+  text-align: center;
+  position: relative;
+  bottom: 15rem;
+  width: 30rem;
+    left: 0rem;
+}
+
+
+.onecard{
+  padding: 2rem;
+}
+
+
+
+
+.linetheline{
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, #f0f0f0, red , #f0f0f0);
+    bottom: 5rem;
+    position: relative;
+}
+
+
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
@@ -11768,7 +11972,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid red;
   }
 }
 .projects-section .project-text {
@@ -11810,7 +12014,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid red;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
